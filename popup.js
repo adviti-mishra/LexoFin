@@ -1,4 +1,5 @@
 // const API_KEY = "YOUR_API_KEY_HERE"; for the chatgpt API
+import { API_KEY } from "./keys";
 
 function getSummary(url) {
   let request = new XMLHttpRequest();
