@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+.main {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 1px none;
+    display: flex;
+    width: 351px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+
+}
+
+.overlap-group {
+height: 594px;
+position: relative;
+width: 351px;
+
+}
+
+.title {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-1);
+    font-weight: 400;
+    left: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+    width: 138px;
+}
+    
+ .rectangle-10 {
+    border: 2px solid;
+    border-color: var(--black);
+    height: 594px;
+    
+    left: 9;
+    
+    position: absolute;
+    top: 6;
+    
+    width: 351px;
+}
+    
+.rectangle-8 {
+    background-color: var(--white);
+    height: 88px;
+    left: 9;
+    position: absolute;
+    top: 506px;
+    width: 351px;
+}
+    
+.line-4 {
+    top: 504px;
+    width: 349px;
+}
+    
+.main .line {
+    height: 2px;
+    left: 1px;
+    position: absolute;
+    
+}
+    
+.main .image {
+    object-fit: cover;
+    position: absolute;
+    
+}
+.image-5 {
+    height: 46px;
+    left: 251px;
+    top: 513px;
+    width: 39px;
+}
+    
+.place {
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 560px;
+    width: 57px;
+}
+    
+.surname {
+    left: 226px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 558px;
+    width: 90px;
+}
+.rectangle-9 {
+    background-color: B#fffdfd;
+    height: 27px;
+    left: 279px;
+    position: absolute;
+    top: 9px;
+    width: 30px;
+}
+.image-6 {
+    height: 32px;
+    left: 277px;
+    top: 8px;
+    width: 31px;
+}
+    
+.image-4 {
+    height: 46px;
+    left: 57px;
+    top: 515px;
+    width: 48px;
+}
+.copy-text {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    left: 264px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 39px;
+    width: 60px;
+}
+    
+.line-3 {
+    top: 60px;
+    width: 350px;
+}
+    
+.rectangle-7 {
+    background-color: var(--white);
+    height: 30px;
+    left: 18px;
+    position: absolute;
+    top: 6px;
+    width: 124px;
+}
+.rectangle-6 {
+    background-color: B#d8ffc6;
+    border: 8px none;
+    height: 444px;
+    left: 9;
+    position: absolute;
+    top: 62px;
+    width: 350px;
+}
+    
+.rectangle-11 {
+    background-color: var(--white);
+    height: 56px;
+    left: 1px;
+    position: absolute;
+    top: 3px;
+    width: 349px;
+}
+
+/* Variables */
+:root {
+    --black: rgba(0, 0, 0,1);
+    --snowy-mint: rgba(216, 255, 198, 1);
+    --romance: rgba(255, 253, 253, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-s: 12px;
+    --font-size-m: 18px;
+    --font-size-1: 36px;
+
+    --font-family-inter: "Inter";
+}
+
+/* Classes */
+
+.inter-normal-black-12px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-1);
+    font-weight: 400;
+    font-style: normal;
+}
